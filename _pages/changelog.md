@@ -41,9 +41,9 @@ Welcome to NextAria! Discover personalized musical theatre song recommendations 
 
 **Key Features:**
 
-* **Personalized Song Suggestions:** AI-powered recommendations to find your next perfect song.
-* **Track Learned Songs:** Mark songs as learned to refine future suggestions.
-* **Instant Exploration:** Start discovering music immediately.
+* **Personalized Recommendations:** AI-powered recommendations tailored to your voice and experience.
+* **Track Your Progress:** Easily mark songs as learned to keep track of your repertoire.
+* **Instant Access:** Start receiving song recommendations immediately. No account creation required.
 
 **What's New:**
 

@@ -2,7 +2,7 @@
 page_title: NextAria # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id: 1234793120 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id:  # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country: ug # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
 appstore_link: # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
@@ -58,7 +58,7 @@ cover_image: assets/headerimage.png # Replace with alternative image path or ima
 cover_overlay_color: "#4527a0" # Use a darker shade of your primary color for overlay
 cover_overlay_transparency: 0.6 # Adjust transparency as needed
 
-device_color: black # Keep black as it's a neutral choice
+device_color: white # Keep black as it's a neutral choice
 
 body_background_color: "#f9f9fc" # Use your light background color
 
