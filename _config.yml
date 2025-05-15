@@ -1,126 +1,83 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title: # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id: 1234793120 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country: ug # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+appstore_link: # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link: # Enter Google Play Store URL.
+presskit_download_link: # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+  # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_icon: assets/appicon.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name: NextAria # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description: Your next musical theatre song, perfectly picked for your voice.
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
-
-
+enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
-linkedin_username                         :                                           
-linkedin_company                          :                                           
-facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
-youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
-
-
+your_name: Joshua Daniel Mukiibi
+your_link: # Enter your website URL. Leave blank if you don't have one.
+your_city: Famagusta
+email_address: joshua.mukiibi@mukiibs.dev
+linkedin_username: joshua-d-mukiibi
+linkedin_company:
+facebook_username:
+instagram_username: josh_d_mukiibs
+twitter_username: joshuamukiibi10
+github_username: jdmukiibs
+youtube_username:
+mastodon_link:
 
 # Feature List                            Edit, add or remove features to be presented.
-features                                  :
+features:
+  - title: Personalized Recommendations
+    description: Discover musical theatre songs tailored to your voice and experience.
+    fontawesome_icon_name: magic
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title: Instant Access
+    description: Start exploring songs immediately. No account creation required.
+    fontawesome_icon_name: user-alt-slash
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title: Track Your Progress
+    description: Easily mark songs as learned to keep track of your repertoire.
+    fontawesome_icon_name: check-square
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
-
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
-
+  - title: # New Feature Title
+    description: # New Feature Description
+    fontawesome_icon_name: # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color: "#4527a0" # Use your primary dark color for the top bar
+topbar_transparency: 0.1
+topbar_title_color: "#ffffff" # Keep white for contrast
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image: assets/headerimage.png # Replace with alternative image path or image URL.
+cover_overlay_color: "#4527a0" # Use a darker shade of your primary color for overlay
+cover_overlay_transparency: 0.6 # Adjust transparency as needed
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color: black # Keep black as it's a neutral choice
 
-body_background_color                     : "#ffffff"
+body_background_color: "#f9f9fc" # Use your light background color
 
-link_color                                : "#1d63ea"
+link_color: "#00b0ff" # Use your secondary bright blue for links
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color: "#4527a0" # Use your primary dark color for the app title
+app_price_color: "#4527a0" # Use your primary dark color for the price
+app_description_color: "#37474f" # A slightly darker grey for better readability against light background
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color: "#4527a0" # Use your primary dark color for feature titles
+feature_text_color: "#546e7a" # A slightly darker grey for feature text
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color: "#00b0ff" # Use your secondary bright blue for feature icons
+feature_icons_background_color: "#e0f7fa" # A very light shade of your secondary color
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color: "#4527a0" # Use your primary dark color for social icons
+social_icons_background_color: "#d1c4e9" # A light shade of your primary color
 
-footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
-
+footer_text_color: "#78909c"
 
 ####################################################
 ### Jekyll Configuration. No need to touch this. ###
@@ -128,7 +85,7 @@ footer_text_color                         : "#666666"
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :compressed # You might prefer to minify using :compressed
+  style: compressed # You might prefer to minify using :compressed
 
 # Exclude these files from your production _site
 exclude:
