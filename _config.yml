@@ -64,9 +64,9 @@ body_background_color: "#f9f9fc" # Use your light background color
 
 link_color: "#00b0ff" # Use your secondary bright blue for links
 
-app_title_color: "#4527a0" # Use your primary dark color for the app title
-app_price_color: "#4527a0" # Use your primary dark color for the price
-app_description_color: "#37474f" # A slightly darker grey for better readability against light background
+app_title_color: "#ffffff" # Use your primary dark color for the app title
+app_price_color: "#ffffff" # Use your primary dark color for the price
+app_description_color: "#ffffff" # A slightly darker grey for better readability against light background
 
 feature_title_color: "#4527a0" # Use your primary dark color for feature titles
 feature_text_color: "#546e7a" # A slightly darker grey for feature text
