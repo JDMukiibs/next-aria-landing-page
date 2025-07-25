@@ -9,71 +9,30 @@ Have a look at the latest updates:
 
 <br>
 
-<!-- ### `Latest`
-# **Version 2.0**
-This is the first update to our app. Jeez **goodness** by kept more sensually a much far proper exotically precise [here is a link](https://www.google.com) and and illicit hey uninspiring the more sat honey knelt before before bearish bowed lorikeet wolf grandly instead diligently and rhinoceros imperative.
-
-#### What's New
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
-
-#### Bug Fixes
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
-
-<br>
-
-### **Version 2.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
-
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-
-<br>
-
-________
-<br> -->
-
-### `Initial Release`
+### `Initial Release (Ongoing Development)`
 # **Version 1.0**
-Welcome to NextAria! Discover personalized musical theatre song recommendations tailored to your voice.
+Welcome to NextAria! Discover personalized musical theatre song recommendations tailored to your voice. We're continuously refining the experience, and here's what's been added and improved since our first preview!
 
 **Key Features:**
 
-* **Personalized Recommendations:** AI-powered recommendations tailored to your voice and experience.
-* **Track Your Progress:** Easily mark songs as learned to keep track of your repertoire.
-* **Instant Access:** Start receiving song recommendations immediately. No account creation required.
+*   **Personalized Recommendations:** AI-powered recommendations tailored to your voice and experience.
+*   **Track Your Progress:** Easily mark songs as learned to keep track of your repertoire.
+*   **Instant Access:** Start receiving song recommendations immediately. No account creation required.
 
-**What's New:**
+**What's New (in this evolving 1.0 release):**
 
-* Integrated AI for intelligent song recommendations.
-* Initial app design and icon.
-* Basic tracking of learned songs.
+*   **Enhanced AI Recommendations:** The AI now provides even more tailored song suggestions and includes helpful **practice advice** directly within the recommendations.
+*   **Intuitive Difficulty Levels:** Say goodbye to numbers! Song difficulties are now clearly described (e.g., "Very Easy," "Medium," "Very Hard") for better understanding.
+*   **Flexible Voice Profiling:** New singers can now easily tell us their preferred song gender (male, female, or any) to get relevant recommendations, even without knowing their formal voice type.
+*   **Manage Your Repertoire with Ease:** You can now **mark songs as "unlearned"** directly from the app, giving you full control over your practice list.
+*   **Improved User Profile:** You can now **edit your user profile** at any time to update your vocal preferences and experience.
+*   **Detailed Song Views:** Tapping on a song now takes you to a dedicated screen with all the details and practice notes in one place.
+*   **Smoother User Experience:** We've added **loading states and skeleton loaders** to make the app feel more fluid while content is being fetched.
+*   **Robust Local Storage:** Migrated to a more reliable and performant local database system for better data management and offline capabilities.
+*   Integrated AI for intelligent song recommendations.
+*   Initial app design and icon.
+*   Basic tracking of learned songs.
 
-Thanks for joining the NextAria journey!
+Thanks for joining the NextAria journey! Your feedback during this phase is invaluable!
 
 <br>
-
-<!-- ## **Version 1.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
-
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-
-<br>
-
-## Version 1.0.1
-That wow robin one and gosh audibly darn that variously less across softly awakened under affectingly wildebeest from jeepers far contemplated and indisputably clung jeepers much mistaken some after mumbled hey certain neatly far alas more trod the swelled rolled permissively so save pert the tapir paradoxical off so then juggled crud a however overslept vehemently kept indisputably anteater walked alas or into.
-
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-
-#### Bug Fixes
-- Improved user sign up experience.
-- Unlike deliberately zebra hen oh jeez understandable. Alas and quit oh snooty unlike deliberately.
-
-<br> -->
