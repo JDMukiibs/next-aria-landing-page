@@ -70,12 +70,11 @@ NextAria is an evolving platform. Key features planned for future iterations inc
 
 ### **📸 Visual Showcase**
 
-<!-- Replace these placeholders with actual links or embedded content -->
-*   [Screenshot 1: Onboarding with Voice Type / Gender Preference](path/to/screenshot1.png)
-*   [Screenshot 2: Main Recommendations Feed](path/to/screenshot2.png)
-*   [Screenshot 3: Detailed Song View with Practice Advice](path/to/screenshot3.png)
-*   [Screenshot 4: User Profile Editing](path/to/screenshot4.png)
-*   [Link to Demo Video (e.g., on YouTube or Vimeo)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+*   [Screenshot 1: Onboarding with Voice Type / Gender Preference](/assets/screenshot/onboarding.jpg)
+*   [Screenshot 2: Main Recommendations Feed](/assets/screenshot/recs.jpg)
+*   [Screenshot 3: Detailed Song View with Practice Advice](/assets/screenshot/detailedSongView.jpg)
+*   [Screenshot 4: User Profile Editing](/assets/screenshot/profil.jpg)
+<!-- *   [Link to Demo Video (e.g., on YouTube or Vimeo)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) -->
 
 ---
 
