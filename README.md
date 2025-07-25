@@ -83,9 +83,9 @@ NextAria is an evolving platform. Key features planned for future iterations inc
 
 This project is a testament to my skills in mobile application development, AI integration, and robust data management. Feel free to connect or ask questions about its architecture and implementation!
 
-*   [Link to your Portfolio/Website](https://www.mukiibs.dev)
-*   [Link to your LinkedIn Profile](https://linkedin.com/in/joshua-d-mukiibi)
-*   [Link to your GitHub Profile (if you have other public repos)](https://github.com/JDMukiibs)
+*   [Personal Website](https://www.mukiibs.dev)
+*   [LinkedIn](https://linkedin.com/in/joshua-d-mukiibi)
+*   [GitHub](https://github.com/JDMukiibs)
 
 ---
 
