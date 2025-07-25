@@ -19,7 +19,7 @@ enable_smart_app_banner: true # Set to true to show a smart app banner at top of
 
 # Information About Yourself
 your_name: Joshua Daniel Mukiibi
-your_link: # Enter your website URL. Leave blank if you don't have one.
+your_link: https://mukiibs.dev # Enter your website URL. Leave blank if you don't have one.
 your_city: Famagusta
 email_address: joshua.mukiibi@mukiibs.dev
 linkedin_username: joshua-d-mukiibi
