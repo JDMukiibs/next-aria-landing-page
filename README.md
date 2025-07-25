@@ -1,113 +1,96 @@
-# Automatic App Landing Page
-**Create and deploy an iOS app landing page on GitHub Pages in only five minutes.**
+# NextAria: AI-Powered Musical Theatre Song Recommender
 
-Designed for GitHub Pages for super easy set up. 
+[![Flutter](https://img.shields.io/badge/Developed%20with-Flutter-02569B?logo=flutter)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Language-Dart-0175C2?logo=dart)](https://dart.dev/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-🔧 Fork this repo
+## 🎭 Discover Your Next Broadway Aria 🎶
 
-🗝 Enter iOS App ID in `_config.yml`
+NextAria is a mobile application designed to revolutionise how musical theatre singers discover new material. Leveraging the power of Generative AI and robust local-first persistence, it provides personalised song recommendations, helps users track their repertoire, and offers tailored practice advice, all within a beautiful and intuitive interface.
 
-📲 Upload video preview or screenshot
+<!-- Optional: You could embed screenshots or a short demo video here to visually showcase the app immediately. -->
+<!-- Example: -->
+<!-- ![NextAria App Screenshot](path/to/your/screenshot.png) -->
+<!-- Or: -->
+<!-- [![Watch the demo video](https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) -->
 
-🎨 Customise site in `_config.yml` (no HTML/CSS)
+---
 
-📝 Write Privacy Policy as markdown in `privacypolicy.md`
+### **✨ The Problem**
 
-🕒 Keep a changelog in `CHANGELOG.md`
+Finding the *perfect* musical theatre song can be a daunting task for singers of all levels. Common challenges include:
+*   **Overwhelm:** Navigating a vast library of songs to find what truly fits.
+*   **Relevance:** Identifying material appropriate for one's specific vocal range, type, and experience.
+*   **Guidance:** Obtaining actionable advice on how to approach new pieces vocally.
+*   **Tracking:** Efficiently managing a growing repertoire of learned or aspiring songs.
 
-✅ Site becomes live at GitHub Pages repository URL, e.g. `https://your-username.github.io/your-repo-name/`.
+---
 
-<img src="https://emilbaehr.com/files/jayson1.png" width="440"> <img src="https://emilbaehr.com/files/slor1.png" width="440">
+### **🚀 The NextAria Solution**
 
+NextAria addresses these challenges with intelligent, personalised solutions:
 
+1.  **AI-Powered Personalisation:** At its core, NextAria utilises a **Large Language Model (LLM)** to generate unique song recommendations tailored to the individual user dynamically. This moves beyond static databases, providing truly novel and relevant suggestions.
+2.  **Adaptive Vocal Profiling:** The app caters to both seasoned vocalists who know their precise voice type (e.g., Soprano, Tenor) and beginners who are "just starting." For the latter, a user-friendly guided process allows them to express preferences like desired song gender (male, female, or any sung songs on Broadway) and general singing experience, ensuring relevant recommendations without requiring technical jargon.
+3.  **Comprehensive Recommendation Details:** Each suggested song comes with rich metadata including its musical, the character who sings it, suitable voice types, a clear, descriptive difficulty level (e.g., "Very Easy," "Medium," "Very Hard"), a brief synopsis, *and* valuable, AI-generated practice notes.
+4.  **Local-First & Offline Ready:** All user data and fetched recommendations are intelligently cached and managed on the device using a robust local database (Drift/SQLite). This ensures a fluid, responsive user experience, even without an internet connection.
+5.  **Repertoire Management:** Users can easily mark songs as "learned" or "unlearned," keeping their repertoire organised and allowing the AI to refine future suggestions.
+6.  **Intuitive User Experience:** The app features a clean, modern UI with clear navigation, integrated loading states, and skeleton loaders for seamless interaction.
+7.  **Profile Evolution:** Users can easily update their vocal preferences and experience level at any time, allowing recommendations to adapt as their skills grow.
 
+---
 
-## Quick Start
+### **🛠️ Underlying Technology & Architecture Highlights**
 
-### Step 1: Fork this repo.
-After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
+NextAria is built with a focus on performance, scalability, and maintainability:
 
-*Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.*
+*   **Frontend Framework:** **Flutter** - Chosen for its ability to build beautiful, natively compiled applications for mobile from a single codebase.
+*   **Language:** **Dart** - For robust, high-performance application logic.
+*   **AI/LLM Integration:** Utilizes **Firebase AI SDK** to connect with **Google's Generative AI models (Gemini Flash)**. This is the engine behind the personalised recommendations and practice advice.
+*   **Local Data Persistence:** **Drift (powered by SQLite)** - A reactive, type-safe, and highly performant local database solution, replacing `shared_preferences` for structured data storage. This enables the "local-first" data strategy.
+*   **State Management:** **Riverpod** - For robust, testable, and maintainable application state.
+*   **Routing:** **AutoRoute** - A declarative routing solution for clear and predictable navigation within the app.
+*   **Localisation:** Built-in **Flutter `intl`** package - Ensures the app's content, including vocal qualities and difficulty levels, is available in multiple languages.
+*   **Unique Identifiers:** Employs the `uuid` package for generating globally unique IDs for all database entries, ensuring data integrity and simplifying potential future synchronisation.
 
+---
 
+### **🛣️ Future Vision**
 
-### Step 2: Enter iOS App ID in `_config.yml`
-Enter your iOS app ID in the `ios_app_id` field and commit your changes. Your site will automatically rebuild with your app icon, name, price and link to App Store.
+NextAria is an evolving platform. Key features planned for future iterations include:
 
-You can go on with customising almost anything in the `_config.yml` file. 
+*   **Expanded Recommendation Controls:** More advanced filtering and sorting options for a highly customised discovery experience.
+*   **Integrated Vocal Warmups:** A curated library of vocal warm-ups, playable directly within the app (e.g., via YouTube embedding), tailored to the user's vocal needs.
+*   **Enhanced User Engagement:** Features like explicit user feedback on recommendations ("like/dislike") to further fine-tune the AI.
+*   **External Resource Integration:** Direct links to popular music platforms (Spotify, YouTube, sheet music sites) to seamlessly access recommended songs.
+*   **Personal Practice Journal:** Empowering users to add private notes and track their progress on individual songs.
+*   **Curated Collections:** Expert-selected song lists for auditions, specific musical styles, or common singing challenges.
 
-Things you can customise in `_config.yml`:
-- App Name
-- App Icon
-- App Description
-- App Price
-- App Store Link
-- Play Store Link
-- Press Kit Download Link
-- Cover Image
-- Cover Overlay Color
-- Background Color
-- Text Colors
-- iPhone Device Color
-- Your Name / Company Name
-- Link to Website
-- Social Links and Contact Info
-- Feature List (Title, text, icon)
+---
 
+### **📸 Visual Showcase**
 
+<!-- Replace these placeholders with actual links or embedded content -->
+*   [Screenshot 1: Onboarding with Voice Type / Gender Preference](path/to/screenshot1.png)
+*   [Screenshot 2: Main Recommendations Feed](path/to/screenshot2.png)
+*   [Screenshot 3: Detailed Song View with Practice Advice](path/to/screenshot3.png)
+*   [Screenshot 4: User Profile Editing](path/to/screenshot4.png)
+*   [Link to Demo Video (e.g., on YouTube or Vimeo)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-### Step 3: Add screenshot or video
+---
 
-#### Adding a screenshot
-Upload a `.png` or `.jpg` of your app to the folder `assets/screenshot/`. The name does not matter. Be sure to delete the placeholder `yourscreenshot.png`.
+### **⭐ Connect with Me**
 
-#### Adding video
-Upload your video to the folder `assets/videos/`. To have support for most browsers, you need to upload two files – one for Safari and one for Chrome/Firefox.
+This project is a testament to my skills in mobile application development, AI integration, and robust data management. Feel free to connect or ask questions about its architecture and implementation!
 
-Video formats supported by Chrome and Firefox:
-- `.webm`
-- `.ogg`
+*   [Link to your Portfolio/Website](https://www.mukiibs.dev)
+*   [Link to your LinkedIn Profile](https://linkedin.com/in/joshua-d-mukiibi)
+*   [Link to your GitHub Profile (if you have other public repos)](https://github.com/JDMukiibs)
 
-Video formats supported by Safari:
-- `.mp4`
-- `.mov`
+---
 
-#### Resolutions
-The videos and screenshots must have one of the following resolutions:
-- 828x1792
-- 1125x2436
-- 1242x2688
+### **📄 License**
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-### Step 4: Edit (or remove) Privacy Policy and Changelog
-Your site automatically includes pages for a Privacy Policy and a Changelog. Change the content of these pages by editing the `privacypolicy.md` and `CHANGELOG.md` files in the `_pages` directory.
-
-In each of the markdown files, you can set the `include_in_header:` value to either `true` or `false`. This determines if the page is included in the top navigation.
-By default, only the Changelog is included in the top navigation. The title of the navigation item can also be edited, by editing the `title:` in each markdown file.
-
-If you need to, you can create additional markdown based pages just by creating an `.md` file like the `privacypolicy.md` and `CHANGELOG.md` files in the `_pages` directory.
-
-**Please note:** The Privacy Policy and Changelog provided are written using dummy text, so please adapt each of them for your own app.
-You can also choose not to include these pages, by simple deleting the `privacypolicy.md` and `CHANGELOG.md` files.
-
-
-
-
-## Feedback
-If you have feedback regarding bugs or improvements, open an issue, @ me on Twitter or write me an email. You can find my contact info on my website.
-
-I'd love to see the sites you create using this little tool.
-
-## Credits
-- [Jekyll](https://github.com/jekyll/jekyll)
-- [FontAwesome](https://fontawesome.github.io/Font-Awesome/)
-
-## Donations
-[Donations are welcome](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=S8ZZT3JXJPN92&currency_code=USD&source=url)
-
-## Author
-[Emil Baehr](https://emilbaehr.com/)
-
-## License
-[MIT License](LICENSE)
+---
